@@ -1,0 +1,1 @@
+Reklama yuboruvchi bot 🤖
