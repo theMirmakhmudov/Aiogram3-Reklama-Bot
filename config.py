@@ -1,1 +1,1 @@
-Token = "BotToken"
+Token = "6998804624:AAFm8KidVR53yaRKrPYs5FiWwFrZsh2H_As"
