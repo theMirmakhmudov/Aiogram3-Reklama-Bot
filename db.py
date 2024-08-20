@@ -28,5 +28,10 @@ class Database:
         with self.connection:
             return self.cursor.execute("SELECT user_id FROM 'users' WHERE user_id = ?", (user_id,)).fetchone()
 
+    @property
+    def get_ids_users(self):
+        with self.connection:
+            return self.cursor.execute("SELECT user_id FROM users").fetchall()
+
 
 connect.close()
